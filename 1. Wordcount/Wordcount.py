@@ -46,7 +46,7 @@ class Wordcount:
 
 
 if __name__ == "__main__":
-    f = open ('sample1.txt')
+    f = open ('a.txt')
     inputs = [word for line in f for word in line.split()]
     f.close()
 
